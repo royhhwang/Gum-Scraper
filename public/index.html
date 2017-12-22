@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Web Scraper</title>
+    <style>
+        input {
+            display: block;
+            height: 36px;
+            width: 200px;
+            font-size: 24px;
+        }
+
+        textarea {
+            width: 200px;
+            height: 200px;
+        }
+    </style>
+</head>
+
+<body>
+    <form action="/submit" method="post">
+        <h1>Hello World!</h1>
+        <input type="text" name="title" placeholder="Title">
+        <textarea type="text" name="body"></textarea>
+
+        <input type="submit">
+        <a href="/news">News</a>
+        <a href="/usename">Users</a>
+        <a href="/link">Links</a>
+    </form>
+</body>
+
+</html>
